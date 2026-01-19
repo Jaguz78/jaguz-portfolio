@@ -46,7 +46,7 @@ export default function ParticlesBackground() {
 
       particles: {
         number: {
-          value: 80,
+          value: 100,
           density: {
             enable: true,
             area: 400,
@@ -166,6 +166,7 @@ export default function ParticlesBackground() {
         id="tsparticles"
         particlesLoaded={particlesLoaded}
         options={options}
+        className="z-10 h-screen absolute inset-0"
       />
     );
   }

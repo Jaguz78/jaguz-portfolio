@@ -6,9 +6,10 @@ import ParticlesBackground from "./ParticlesBackground";
 export default function Hero() {
   return (
     <section
+      id="hero"
       className="
         relative
-        min-h-screen
+        h-screen
         flex
         items-center
         bg-[linear-gradient(to_top_right,#020d13_0%,#011627_48%,#020d13_100%)]
@@ -17,20 +18,18 @@ export default function Hero() {
         bg-cover
       "
     >
-      <div className="absolute inset-0 z-10">
-        <ParticlesBackground />
-      </div>
+      <ParticlesBackground />
 
       {/* Contenido */}
       <div className="relative z-20 container mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-4 items-center">
         {/* Imagen */}
         <div className="order-2 md:order-1 flex justify-center">
           <Image
-            src="/nero.png"
+            src="/me6.jpeg"
             alt="Imagen de perfil"
-            width={400}
-            height={400}
-            // className="rounded-full shadow-[0_0_40px_rgba(0,255,255,0.15)]"
+            width={250}
+            height={250}
+            className="rounded-full shadow-[0_0_40px_rgba(0,255,255,0.15)]"
             priority
           />
         </div>
