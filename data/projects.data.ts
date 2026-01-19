@@ -38,8 +38,8 @@ export const projects: Project[] = [
     description:
       "A web-based implementation of the classic Simon memory game. Players must repeat increasingly longer sequences of colors and sounds, testing memory and concentration skills with visual and audio feedback.",
     tech: ["HTML", "CSS", "JavaScript"],
-    demo: "https://jaguz78.github.io/Simon-game/",
-    repo: "https://github.com/Jaguz78/Simon-game",
+    demo: "https://jaguz78.github.io/Simon-Dice",
+    repo: "https://github.com/Jaguz78/Simon-Dice",
     banner: Simon,
   },
   {
@@ -47,7 +47,7 @@ export const projects: Project[] = [
     description:
       "An interactive browser-based drawing application inspired by Microsoft Paint. Features include multiple brush sizes, color palette, shape drawing tools, and canvas clearing functionality.",
     tech: ["HTML", "CSS", "JavaScript"],
-    demo: "https://jaguz78.github.io/Paint/",
+    demo: "https://jaguz78.github.io/Paint/dibujandoConMouse/index.html",
     repo: "https://github.com/Jaguz78/Paint",
     banner: Paint,
   },
